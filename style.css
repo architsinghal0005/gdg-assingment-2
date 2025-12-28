@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #1e1e1e;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 80px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.signup-btn {
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+  padding: 0 80px;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.tagline {
+  color: #df6951;
+  font-weight: 600;
+}
+
+.hero-text h2 {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.hero-text p {
+  color: #5e6282;
+  margin-bottom: 25px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.primary-btn {
+  background: #f1a501;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.play-btn {
+  text-decoration: none;
+  color: #686d77;
+}
+
+.hero-image {
+  width: 480px;
+}
+
+/* CATEGORY */
+.category {
+  text-align: center;
+  padding: 100px 80px;
+}
+
+.section-tag {
+  color: #5e6282;
+  font-weight: 600;
+}
+
+.category h2 {
+  font-size: 36px;
+  margin: 15px 0 60px;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.card {
+  padding: 30px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+.footer {
+  padding: 80px;
+  background: #f9f9f9;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.footer a {
+  display: block;
+  color: #5e6282;
+  text-decoration: none;
+  margin: 6px 0;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 40px;
+  color: #5e6282;
+}
